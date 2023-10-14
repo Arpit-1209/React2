@@ -1,0 +1,40 @@
+/* Calculator.css */
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .display {
+    background-color: #fff;
+    padding: 10px;
+    text-align: right;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
